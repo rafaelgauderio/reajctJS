@@ -1,4 +1,4 @@
-/*
+
 -> REDENRIZAÇÃO CONDICIONAL
 	-> Criar componentes distintos que encapsulam o comportamento que você precisa.
 	-> Possibilidade de renderizar apenas alguns dos elementos, dependendo do estado da aplicação

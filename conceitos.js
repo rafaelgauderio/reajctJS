@@ -2,7 +2,7 @@
 https://github.com/Tautorn/introduction-reactjs
 brunocarneirofs@gmail.com
 
-/*
+
 	HISTÓRIAS E CONCEITOS DO ReactJS
 	 	-> DEFINIção
 	 		-> É uma biblioteca JavaScript para criar interfaces de usuário para aplicações web

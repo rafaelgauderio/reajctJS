@@ -1,4 +1,4 @@
-/*
+
 ESLint
 	_> Ferramenta de Validação de código
 	-> Evita erros durante o desenvolvimento

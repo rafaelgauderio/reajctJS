@@ -1,4 +1,4 @@
-/*
+
 
 WEBPACK - principais conceitos
 		Denifição: É um module bundlers (um empacotador de módulos para aplicações JS).
@@ -27,9 +27,9 @@ WEBPACK - principais conceitos
 
 		# npm i -D webpack webpack-cli
 		# npm init
-		# cat package.json
+		# cat package.json;
 		# "build": "webpack" --mode production"
-		# npm install --save-dev webpack webpack-cli
+				# npm install --save-dev webpack webpack-cli
 		# vim webpack.config.js
 						filename: 'bundler.js'
 						loader: "babel-loader"
