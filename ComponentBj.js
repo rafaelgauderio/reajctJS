@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ComponentB() {
+function ComponentB(props) {
 
 	
 	return (
 
-		 <h2> ComponentB<h2>		
+		 <div> ComponentB {props.children}<div>		
 		)
 
 }
