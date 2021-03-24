@@ -13,7 +13,6 @@ CICLO DE VIDA
 	componentWillReceivePropos (deprecated 17.0)
 	componentWillUpdate (deprecated 17.0)
 
-	componentDidMount
 	componentDidUpdate
 	componentDidCatch
 	componentWillUnmount -> escrita do método é retornando uma função dentro do useEffect.
@@ -55,6 +54,19 @@ HOOKS
 		useLayoutEffect
 		useDebugValue
 
+	--
+			componentDidMount
+			componentDidMount() {
+   		this.setState({
+        	name: ‘Rafael’
+    	}) 
+	}
+
+	-- abaixo o mesmo código usando hooks
+
+	useEffect(() => { setName('Rafael') }, [])
+
+
 
 CONTEXT API
 	Context API providencia uma forma de enviar dados através da árvore de componentes
@@ -86,13 +98,8 @@ CONTEXT API
 	Utilizando contextApi, qual é a forma correta de criar um contexto?
 		-> const myContext = React.createContext()
 
-	componentDidMount() {
-   		this.setState({
-        	name: ‘DIO’
-    	}) 
-	}
-
-	useEffect(() => { setName('DIO') }, [])
+	
+	
 
 	Dada uma aplicação que tem um contexto criado utilizando ContextApi, 
 	como é possível receber o contexto atual, em um component, enviado através do Provider?

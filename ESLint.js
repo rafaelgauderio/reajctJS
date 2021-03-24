@@ -12,5 +12,4 @@ ESLint
 	# npm run eslint
 			-- vai executar e me mostrar os vários erros de código javaScript
 
-*/
 
