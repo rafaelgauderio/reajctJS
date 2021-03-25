@@ -1,3 +1,4 @@
+
 PENSANDO DO JEITO REACT
 
 	-> React é uma biblioteca onde é uma boa prática criar vários componentes
