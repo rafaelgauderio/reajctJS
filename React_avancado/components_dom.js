@@ -3,6 +3,7 @@ COMPONENTS E DOM
 	FRAGMENTS	
 	-> Fragments: Um padrão comum no React é que um componente pode retornar múltiplos elementos. Os Fragmentos
 			permitem agrupar uma lista de filhos sem adicionar nós extras ao DOM.
+		É um padrão do React para um componente retornar múltiplos elementos.
 
 	-> Podemos ter vários componentes, mas o React permite que retornas apenas 1 elemento. Para retornar mais de um elemento, que
 			que encapsular todos os demais nós dentro de apenas 1 <div>

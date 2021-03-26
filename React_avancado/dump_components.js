@@ -7,7 +7,8 @@ DUMB COMPONENTS
 	-> Recebem valores e callbacks exclusivamente via props
 	-> Raramento possuem estado, quando precisam é para controlar a interface e não dados do usuário
 	-> São quase sempre escritos como componentes funcionais
-	-> Exemplos: Button, Card, Sidebar, Footer, List, Menu
+  -> O componente não possui dependência com terceiros, recebendo todos valores via props.
+	-> Exemplos: Button, Card, Sidebar, Footer, List, Menu, Modal
 
 	
 	*/
